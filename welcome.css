@@ -1,0 +1,161 @@
+.container {
+    margin-top: 40px;
+    width: 970px;
+}
+
+.goto {
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+input,textarea {
+    margin-bottom: 15px;
+}
+
+.note h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0px auto;
+    width: 1150px;
+}
+
+.table {
+    margin-top: 90px;
+    border-collapse: collapse;
+    padding-bottom: 100px;
+}
+
+table td,th {
+    padding: 6px 10px;
+    border: 2px solid black;
+}
+
+th {
+    padding: 11px;
+}
+
+.title {
+    width: 120px;
+}
+
+.time {
+    width: 127px;
+}
+
+.desc {
+    width: 400px;
+}
+
+.srno {
+    width: 55px;
+}
+
+#hide {
+    display: none;
+}
+
+.actioncolumn {
+    text-align: center;
+    width: 103px;
+}
+
+.modal1 {
+    display: none;
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lavender;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5),
+        0 0 0 700px rgba(0, 0, 0, 0.3);
+}
+
+.modal1 input,
+.modal1 textarea {
+    border: 2px solid black;
+
+}
+
+.modal1 input:hover,
+.modal1 textarea:hover {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+.modal1 input {
+    padding: 7px;
+}
+
+.modal1 button {
+    width: 121px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+span {
+    border: 2px solid black;
+    padding: 3px 6px;
+    font-size: 10px;
+    width: 4%;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: black;
+    color: white;
+}
+
+#delete {
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+#delete:hover {
+    background-color: black;
+    color: white;
+}
+
+#hr {
+    margin-top: 30px;
+    height: 4px;
+    width: 1157px;
+    margin-left: 182px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.deleteall {
+    border: 2px solid black;
+    padding: 7px;
+    position: absolute;
+    right: 200px;
+    top: 648px;
+    width: 141px;
+}
+
+#your_note {
+    position: absolute;
+    left: 188px;
+    top: 648px;
+}
+
+small {
+    color: red;
+    font-weight: 650;
+}
